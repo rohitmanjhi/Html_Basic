@@ -1,0 +1,13 @@
+
+body{
+  background:url("pgl.jpg");
+  background-repeat: no repeat;
+  background-size: cover;
+}
+
+.rohit{
+  border: red groove 20px;
+}
+span{
+  background: yellow;
+}

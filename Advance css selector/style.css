@@ -1,0 +1,20 @@
+
+body  h4 + ul   {
+  color: green;
+}
+a[href="http://google.com"]{
+  color: red;
+  background: yellow;
+}
+li:nth-of-type(even){
+  color:orange;
+}
+div{
+  color: red;
+}
+.taa{
+  color: green groove 20px;
+}
+.t{
+  color:blue;
+}

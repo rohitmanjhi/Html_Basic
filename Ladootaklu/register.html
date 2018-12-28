@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Register form</title>
+  </head>
+  <body>
+    <h1>Registeration Form</h1>
+    <h2>All Fields Are Mandatory</h2>
+    <form action="thankyou.html" method="post">
+      <label for="name">Enter Name:</label>
+      <input id="name" type="text" name="username" placeholder="Enter Name"required><br><br>
+
+      <label for="mail">Enter Email:</label>
+      <input id="mail" type="email" name="mail" placeholder="Enter Mail Id" required><br><br>
+
+      <label for="age">Enter Age :</label>
+      <input id="age" type="text" name="age" placeholder="Enter age" required><br><br>
+
+      <h2>Are you Interested In Datting</h2>
+      <label for="y">Yes</label>
+      <input id="y"type="radio" name="int" value="">
+
+      <label for="n">No</label>
+      <input id="n"type="radio" name="int" value=""><br>
+
+      <h2>Your Expectation Like:</h2>
+      <select class="" name="expectation">
+        <option value="kf">Namu Namdev</option>
+        <option value="kf">Priyanka chopra</option>
+        <option value="kf">Ladoo Manjhi</option>
+        <option value="kf">Priyanka Namdev</option>
+       </select>
+
+    <h2>How Many Marriages You Want:</h2>
+    <select class="" name="number">
+      <option value="one">1</option>
+      <option value="two">2</option>
+      <option value="three">3</option>
+      <option value="four">4</option>
+      <option value="five">5</option>
+    </select>
+    <h2>Are You Heavy Alcholic :</h2>
+    <input type="checkbox" name="alco" value="yes">Yes
+    <input type="checkbox" name="alco" value="no">No
+    <input type="checkbox" name="alco" value="weekends">Only on Week ends
+
+    <h2>Your Preferences And Extra Information</h2>
+    <textarea name="preferences" rows="8 " cols="60"></textarea><br>
+    <input type="submit" name="" value="Register">
+  </form>
+  </body>
+</html>
